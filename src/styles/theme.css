@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  color: #111111;
+  background: #ffffff;
+
+  --font-body: 'Manrope', 'Segoe UI', sans-serif;
+  --font-heading: 'Manrope', 'Segoe UI', sans-serif;
+
+  --surface: #ffffff;
+  --surface-soft: #f4f8fb;
+  --surface-muted: #e9f0f5;
+  --surface-policy: #f1f6fa;
+  --surface-panel: rgba(255, 255, 255, 0.94);
+  --surface-panel-strong: rgba(255, 255, 255, 0.97);
+  --surface-panel-tint: linear-gradient(180deg, #f7fafc, #edf3f7);
+  --surface-panel-accent: linear-gradient(180deg, rgba(255, 255, 255, 0.99), rgba(239, 248, 252, 0.96));
+  --surface-panel-cool: linear-gradient(145deg, #f4fbfd, #ffffff);
+  --surface-commitment: linear-gradient(180deg, #fcfeff, #eef7fa);
+  --surface-testimonial: linear-gradient(180deg, #f2f7fb, #ffffff);
+  --surface-result: linear-gradient(180deg, #ffffff, #f4f8fb);
+  --surface-glass: rgba(255, 255, 255, 0.74);
+  --surface-glass-border: rgba(255, 255, 255, 0.62);
+  --surface-input: #ffffff;
+  --surface-input-shadow: rgba(17, 32, 50, 0.04);
+  --surface-chip-soft: rgba(17, 32, 50, 0.06);
+  --surface-metric: rgba(255, 255, 255, 0.84);
+  --surface-metric-border: rgba(255, 255, 255, 0.64);
+  --surface-white-overlay: rgba(255, 255, 255, 0.06);
+  --surface-white-overlay-strong: rgba(255, 255, 255, 0.08);
+  --surface-white-overlay-soft: rgba(255, 255, 255, 0.05);
+  --surface-white-border: rgba(255, 255, 255, 0.08);
+  --surface-white-border-strong: rgba(255, 255, 255, 0.1);
+  --surface-error: #fff3f3;
+  --surface-dark-card: linear-gradient(160deg, rgba(7, 24, 38, 0.96), rgba(20, 52, 76, 0.92));
+  --surface-hero-overlay:
+    linear-gradient(90deg, rgba(244, 249, 252, 0.92) 0%, rgba(244, 249, 252, 0.58) 38%, rgba(12, 34, 52, 0.18) 100%),
+    linear-gradient(180deg, rgba(10, 30, 47, 0.16) 0%, rgba(10, 30, 47, 0.08) 100%);
+
+  --brand-ink: #112032;
+  --brand-ink-soft: #5a6c81;
+  --brand-dark: #07121d;
+  --brand-dark-2: #0f2234;
+  --brand-dark-3: #17344c;
+  --brand-overlay: rgba(7, 18, 29, 0.94);
+  --brand-overlay-strong: rgba(7, 18, 29, 0.98);
+  --brand-border: rgba(17, 32, 50, 0.08);
+  --brand-border-strong: rgba(17, 32, 50, 0.12);
+  --brand-shadow-soft: rgba(17, 32, 50, 0.06);
+  --brand-shadow: rgba(17, 32, 50, 0.08);
+  --brand-shadow-strong: rgba(17, 32, 50, 0.12);
+  --brand-shadow-dark: rgba(7, 18, 29, 0.18);
+  --brand-shadow-darker: rgba(7, 18, 29, 0.24);
+  --brand-shadow-deep: rgba(7, 18, 29, 0.2);
+  --brand-shadow-black: rgba(4, 10, 15, 0.22);
+
+  --copy-soft: #5a6c80;
+  --copy-muted: #46586d;
+  --copy-subtle: #70839a;
+  --copy-quote: #22384d;
+  --copy-chip: #27435b;
+  --copy-person: #65788f;
+  --copy-light: rgba(236, 245, 255, 0.86);
+  --copy-light-strong: #f4fbff;
+  --copy-light-soft: rgba(255, 255, 255, 0.68);
+  --copy-alert: #9f2f2f;
+
+  --accent-label: #2cc6d9;
+  --accent-start: #2cc6d9;
+  --accent-end: #2cc6d9;
+  --accent-text-strong: #d9f9ff;
+  --accent-hover: #74e5f0;
+  --accent-glow-soft: rgba(44, 198, 217, 0.08);
+  --accent-glow: rgba(44, 198, 217, 0.12);
+  --accent-glow-strong: rgba(44, 198, 217, 0.16);
+  --accent-surface: rgba(44, 198, 217, 0.14);
+  --accent-surface-strong: rgba(44, 198, 217, 0.18);
+  --accent-border: rgba(44, 198, 217, 0.22);
+  --accent-border-strong: rgba(44, 198, 217, 0.38);
+  --accent-ring: rgba(44, 198, 217, 0.28);
+  --accent-ring-strong: rgba(44, 198, 217, 0.42);
+  --accent-shadow: rgba(44, 198, 217, 0.18);
+  --accent-shadow-soft: rgba(44, 198, 217, 0.08);
+
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.65;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 720px) {
+  :root {
+    font-size: 15px;
+  }
+}
